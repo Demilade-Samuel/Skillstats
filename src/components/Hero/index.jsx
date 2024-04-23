@@ -34,11 +34,7 @@ const Hero = () => {
         </FirstContainer>
 
         <SecondContainer>
-          <picture>
-            <source media="(min-width: 600px)" srcset={FirstTab} />
-
-            <img src={MobileTab} alt="Hero-Mobile" />
-          </picture>
+          <img src={FirstTab} alt="Hero-FirstTab" />
         </SecondContainer>
 
         <ThirdContainer>
